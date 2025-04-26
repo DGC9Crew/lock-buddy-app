@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1063887483783",
+    "project_id": "supabasetest-d3b2b",
+    "storage_bucket": "supabasetest-d3b2b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063887483783:android:8023745fc1f313bced5922",
+        "android_client_info": {
+          "package_name": "com.example.supabasetestreal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGdHkL97QQfQ10h4xUJiO_EEMkjIbZF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
