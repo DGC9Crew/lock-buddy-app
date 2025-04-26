@@ -2,6 +2,7 @@ package com.example.supabasetestreal;
 
 import static android.content.ContentValues.TAG;
 
+import com.example.supabasetestreal.secret;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     // Declare the launcher at the top of your Activity/Fragment:
     // Declare the launcher at the top of your Activity/Fragment:
     RequestQueue requestQueue;
-    String secretKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJxZ2Jzb21obGRwZnNiZ2ZrZ3NiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk4MTQzNTcsImV4cCI6MjA1NTM5MDM1N30.GwQuIoF3Jh5epC9CiP8eTLcVGWEmutgBzt6ouFmfd7I";
+    String secretKey = new secret().secret;
     ListView myList;
     private final ActivityResultLauncher<String> requestPermissionLauncher =
             registerForActivityResult(new ActivityResultContracts.RequestPermission(), isGranted -> {
